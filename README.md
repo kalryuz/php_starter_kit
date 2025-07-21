@@ -101,3 +101,10 @@ php_starter_kit/
 ├── seed-admin.php          # This file use to seed first data for use this system
 └── php_starter_kit.sql     # This file use to import to database for default starter kit table
 ```
+
+---
+
+Anything you can DM me [Here!](https://www.tiktok.com/@kalryuz)
+
+**`Kalryuz Dev`** 
+I'm happy to help you extend it further!
