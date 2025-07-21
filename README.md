@@ -40,17 +40,35 @@ Before starting, make sure you have:
 
 ## ⚙️ Installation Instructions
 
-### 1. Clone or Download the Project
-
-Clone via Git (if Git is installed):
-
+1. Clone or Download the Project
 ```bash
 git clone https://github.com/kalryuz/php_starter_kit.git
 ```
+
+2. Create database named **`php_starter_kit`** in **phpMyAdmin** or your preferred tool.
+
+3. Import the SQL file **`php_starter_kit.sql`** from the `this project` folder into that database.
+   
+4. Then open project file **`function/initialize.php`**.
+   Custom this base your project
+```bash
+$title = 'PHP Starter Kit';
+$url   = 'http://localhost/php_starter_kit/'; // Adjust this base your url root project
+```
+
+5. Seed first data to login.
+   Put this on your url to seed data
+ ```bash
+http://localhost/php_starter_kit/seed-admin.php
+```
+6. Now installation finish, you can login & try use this starter kit.
+
+
 ## 📁 Project Folder Structure
 
 ```bash
 php_starter_kit/
+│
 ├── admin/                  # Example crud module from this starter kit
 │   ├── create.php          # Create module
 │   ├── edit.php            # Edit module
