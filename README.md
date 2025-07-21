@@ -1,4 +1,4 @@
-# PHP Starter Kit By Kalryuz Dev
+# 🚀 PHP Starter Kit
 
 A simple and structured PHP system designed for **students** and **beginners** to learn how to build clean and modular web applications with PHP.
 
@@ -16,7 +16,7 @@ It includes the following integrations:
 - ✅ **DataTables** — For displaying searchable, sortable, and paginated data.
 - ✅ **SweetAlert2** — For beautiful alert and confirmation popups.
 - ✅ **Session Flash Messages** — To show user feedback like success or error.
-- ✅ **Custom Functions** — For things like `base_url()`, `sanitize()`, `esc()`, `sessionMessage()` and etc.
+- ✅ **Reusable Functions** — For things like `base_url()`, `sanitize()`, `esc()`, `sessionMessage()` and etc.
 
 You can use this as a starting point for projects like:
 
