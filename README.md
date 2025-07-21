@@ -16,7 +16,7 @@ It includes the following integrations:
 - ✅ **DataTables** — For displaying searchable, sortable, and paginated data.
 - ✅ **SweetAlert2** — For beautiful alert and confirmation popups.
 - ✅ **Session Flash Messages** — To show user feedback like success or error.
-- ✅ **Helper Functions** — For things like `base_url()`, redirection, alerts, etc.
+- ✅ **Custom Functions** — For things like `base_url()`, `sanitize()`, `esc()`, `sessionMessage()` and etc.
 
 You can use this as a starting point for projects like:
 
@@ -63,6 +63,7 @@ http://localhost/php_starter_kit/seed-admin.php
 ```
 6. Now installation finish, you can login & try use this starter kit.
 
+---
 
 ## 📁 Project Folder Structure
 
