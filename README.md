@@ -46,10 +46,13 @@ git clone https://github.com/kalryuz/php_starter_kit.git
 ```
 
 2. Create database named **`php_starter_kit`** in **phpMyAdmin** or your preferred tool.
-
-3. Import the SQL file **`php_starter_kit.sql`** from `this project` folder into that database.
    
-4. Then open project file **`function/initialize.php`**.
+
+4. Import the SQL file **`php_starter_kit.sql`** from `this project` folder into that database.
+   
+   
+5. Then open project file **`function/initialize.php`**.
+   
    Custom this base your project
 ```bash
 $title = 'PHP Starter Kit';
@@ -57,10 +60,12 @@ $url   = 'http://localhost/php_starter_kit/'; // Adjust this base your url root 
 ```
 
 5. Seed first data to login.
+   
    Put this on your url to seed data
  ```bash
 http://localhost/php_starter_kit/seed-admin.php
 ```
+
 6. Now installation finish, you can login & try use this starter kit.
 
 ---
@@ -107,4 +112,5 @@ php_starter_kit/
 Anything you can DM me [Here!](https://www.tiktok.com/@kalryuz)
 
 **`Kalryuz Dev`** 
+
 I'm happy to help you extend it further!
