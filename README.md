@@ -47,7 +47,7 @@ git clone https://github.com/kalryuz/php_starter_kit.git
 
 2. Create database named **`php_starter_kit`** in **phpMyAdmin** or your preferred tool.
 
-3. Import the SQL file **`php_starter_kit.sql`** from the `this project` folder into that database.
+3. Import the SQL file **`php_starter_kit.sql`** from `this project` folder into that database.
    
 4. Then open project file **`function/initialize.php`**.
    Custom this base your project
@@ -92,8 +92,8 @@ php_starter_kit/
 │   └── message.php         # To display sweetalert in page.
 │
 ├── template/               # Common layout components
-│   ├── header.php          # HTML header & top navigation bar
-│   ├── footer.php          # HTML footer
+│   ├── header.php          # Header & top navigation bar
+│   ├── footer.php          # Footer
 │   └── sidebar.php         # Sidebar menu
 │
 ├── dashboard.php           # Dashboard for system after login
