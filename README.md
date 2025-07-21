@@ -46,3 +46,33 @@ Clone via Git (if Git is installed):
 
 ```bash
 git clone https://github.com/kalryuz/php_starter_kit.git
+
+🗂 Project Folder Structure
+php_starter_kit/
+├── assets/                 # All static assets (CSS, JS, images)
+│   ├── css/                # Custom stylesheets
+│   ├── js/                 # Custom JavaScript files
+│   └── vendor/             # Third-party libraries (AdminLTE, DataTables, etc.)
+│
+├── config/                 # Configuration files
+│   └── db.php              # Database connection setup
+│
+├── database/
+│   └── php_starter_kit.sql # SQL file to import into phpMyAdmin
+│
+├── functions/              # Reusable helper functions
+│   └── helper.php          # base_url(), alert(), redirect(), etc.
+│
+├── includes/               # Common layout components
+│   ├── header.php          # HTML header, navigation bar
+│   ├── footer.php          # HTML footer
+│   └── sidebar.php         # (Optional) Sidebar menu
+│
+├── pages/                  # Page-specific logic and views
+│   ├── dashboard.php       # Example dashboard page
+│   ├── users.php           # Example user listing page
+│   └── add_user.php        # Example form page
+│
+├── index.php               # Project entry point
+├── .htaccess               # (Optional) Apache URL rewrite settings
+└── README.md               # Project documentation
