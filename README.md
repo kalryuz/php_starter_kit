@@ -1,4 +1,4 @@
-# 🚀 PHP Starter Kit
+# PHP Starter Kit By Kalryuz Dev
 
 A simple and structured PHP system designed for **students** and **beginners** to learn how to build clean and modular web applications with PHP.
 
